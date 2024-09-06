@@ -7,7 +7,7 @@ public class Main {
 
         hello();
         positiveOrNegative(number);
-        postiveOrZeroOrNegative(number);
+        positiveOrZeroOrNegative(number);
         bartender(name);
         sum(input1, input2);
     }
@@ -24,7 +24,7 @@ public class Main {
         }
     }
 
-    public static void postiveOrZeroOrNegative(int number) {
+    public static void positiveOrZeroOrNegative(int number) {
         if (number > 0) {
             System.out.println("This number is positive!");
         } else if (number == 0) {

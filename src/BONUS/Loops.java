@@ -104,15 +104,25 @@ public class Loops {
         }
 
 
-        //Assignment 10  (hoe krijg je ook de spaties?)
+        //Assignment 10
         System.out.println(" ");
-        String stars = "";
+        int rows = 10;
+        String[] starsArray= new String[rows];
 
-        for (int i = 0; i < 8; i++) {
-            stars += "*";
-            System.out.println(stars);
+        for(int i = 0; i < rows; i++){
+            String stars = "";   //This declaration must be repeated each loop of the for loop, so you have to write the declaration within the loop
+            for(int j = 0; j <= (rows-i); j++){
+                stars += " ";
+            }
+            for(int j = 0; j <= (i*2); j++){
+                stars += '*';
+            }
+            starsArray[i] = stars;
         }
 
+        for (String starsItem : starsArray) {
+            System.out.println(starsItem);
+        }
     }
 
 

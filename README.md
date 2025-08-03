@@ -39,10 +39,10 @@ The goal of this project is to gain practical experience with writing Java metho
 
 1. Open the project in your IDE (IntelliJ IDEA)
 2. Navigate to the `Main` class
-3. Locate the `main` method and click the green play button **Run 'Main'** or use the terminal:
+3. Locate the `main` method and click the green play button to **Run 'Main'** or use the terminal:
     ```bash
-    ./mvnw clean compile exec:java
-    ```
+   mvn clean compile exec:java
+   ```
 
 
 ## Credits
